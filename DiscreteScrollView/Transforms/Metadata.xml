@@ -1,0 +1,23 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.yarolegovich.discretescrollview']/
+        interface[@name='DiscreteScrollView.ScrollStateChangeListener']/method[@name='onScrollStart']"
+        name="argsType">OnScrollStartEventArgs</attr>
+  <attr path="/api/package[@name='com.yarolegovich.discretescrollview']/
+        interface[@name='DiscreteScrollView.ScrollStateChangeListener']/method[@name='onScrollEnd']"
+        name="argsType">OnScrollEndEventArgs</attr>
+  <attr path="/api/package[@name='com.yarolegovich.discretescrollview']/
+        interface[@name='DiscreteScrollView.ScrollStateChangeListener']/method[@name='onScroll']"
+        name="argsType">OnScrollEventArgs</attr>
+  <attr path="/api/package[@name='com.yarolegovich.discretescrollview']/
+        interface[@name='DiscreteScrollView.ScrollListener']/method[@name='onScroll']"
+      name="argsType">OnScrollArgs</attr>
+  <remove-node path="/api/package[@name='com.yarolegovich.discretescrollview']/class[@name='InfiniteScrollAdapter']/method[@name='onBindViewHolder']" />
+  <remove-node path="/api/package[@name='com.yarolegovich.discretescrollview']/class[@name='InfiniteScrollAdapter']/method[@name='onCreateViewHolder']" />
+</metadata>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Fantacode.DiscreteScrollView.Droid</id>
+        <version>1.4.9</version>
+        <description>Xamarin Binding Library - DiscreteScrollView</description>
+        <authors>Abdul Muhaymin Arif</authors>
+        <owners>Abdul Muhaymin Arif</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>DiscreteScrollView</title>
+        <releaseNotes>DiscreteScrollView v1.4.9</releaseNotes>
+        <summary>Xamarin Binding Library - DiscreteScrollView</summary>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/muhaym/</projectUrl>
+        <copyright>Copyright (c) 2018 Abdul Muhaymin Arif</copyright>
+        <tags>Xamarin.Android, ucrop</tags>
+        <dependencies>
+            <dependency id="Xamarin.Android.Support.v7.AppCompat" version="27.0.2.1" />
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="DiscreteScrollView/bin/Release/DiscreteScrollView.dll" target="lib/MonoAndroid10/DiscreteScrollView.dll" />
+    </files>
+</package>
