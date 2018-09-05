@@ -12,7 +12,7 @@
         <releaseNotes>DiscreteScrollView v1.4.9</releaseNotes>
         <summary>Xamarin Binding Library - DiscreteScrollView</summary>
         <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
-        <projectUrl>https://github.com/muhaym/</projectUrl>
+        <projectUrl>https://github.com/muhaym/DiscreteScrollView.Xamarin</projectUrl>
         <copyright>Copyright (c) 2018 Abdul Muhaymin Arif</copyright>
         <tags>Xamarin.Android, ucrop</tags>
         <dependencies>
